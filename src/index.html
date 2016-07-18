@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Test Case | CodeX</title>
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/background-blur.min.js"></script>
+	</head>
+	<body>
+		<section>
+			<div class="header" id="header_bg">
+				<div></div>
+				<div class="header__elem header__book-cover">
+					<img class="header__book-cover_img" src="images/book-cover-705x1125.jpg">
+				</div>
+				<div class="header__elem header__book-content">
+					<div class="header__book-content_title">
+						<h1 class="unit_elem header-title">Sunset Rising</h1>
+						<h3 class="section_elem header-subtitle">The Trilogy</h3>
+						<p class="section_elem header-author">by S.M. McEachern</p>
+					</div>
+					<div class="header__book-content_buttons">
+						<ul class="header-buttons-block">
+							<li class="header-buttons-block__elem"><span class="header-buttons-block__elem_text">Buy it now &rarr;</span></li>
+							<li class="header-buttons-block__elem"><a class="button button__amazon" href="#"></a></li>
+							<li class="header-buttons-block__elem"><a class="button button__BN" href="#"></a></li>
+							<li class="header-buttons-block__elem"><a class="button button__google" href="#"></a></li>
+							<li class="header-buttons-block__elem"><a class="button button__ibooks" href="#"></a></li>
+							<li class="header-buttons-block__elem"><a class="button button__disabled button__kobo" disabled></a><span class="button__disabled_text">Coming soon</span></li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="content">				
+				<p class="section_elem content__title">Special edition of the ebook set of the Sunset Rising Trilogy, which includes: Sunset Rising, Worlds Collide, New World Order, and available in ebook format for the first time all seven satellite stories!</p>
+				<p><br></p>
+				<p class="content__text">Sunset Rising: Born a slave inside a government biodome, seventeen-year-old Sunny O'Donnell becomes a pawn in a political plot that sparks a rebellion. Accused of treason and facing execution, she escapes with a man she considers an enemy and discovers she not only has to work with him to survive, but also lead the revolution.</p>
+				<p class="content__text">A Readers Favorite 2015 Book Award Gold Medal winner!</p>
+				<p><br></p>
+				<p class="content__text">Worlds Collide: Sunny and Jack must continue a life of subterfuge in order to stay alive and find a way to free the Pit. But in their attempt to save the urchins, they uncover the horrifying truth about President Holt and the evil he could unleash on the world.</p>
+				<p><br></p>
+				<p class="content__text">New World Order: While Sunny and Jack struggle to find each other in the lawless post-apocalyptic world, tensions between the Pit and the Dome escalate. In the action-packed conclusion of the Sunset Rising Trilogy, friends will become enemies and enemies will become friends on a journey that will lead to a new world order.</p>
+				<p><br></p>
+				<p class="content__text">Satellite Stories: For the first time in ebook format, the seven satellite stories are included with the trilogy. Find out what's happening in the Pit between books one and two, and get a closer look at some of the other people in Sunny's life.&nbsp;</p>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<p class="unit_elem content__about">Spread the word about this book!</p>
+				<div class="unit_elem content__about_border"></div>
+				<ul class="social-block">
+					<li class="social-block__elem"><a class="social-button social-button__facebook" href="#">share on facebook&nbsp;&nbsp;</a></li>
+					<li class="social-block__elem"><a class="social-button social-button__twitter" href="#">share on twitter&nbsp;&nbsp;</a></li>
+					<li class="social-block__elem"><a class="social-button social-button__email" href="#">Share by email&nbsp;&nbsp;</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<p class="unit_elem content__about">About the author</p>
+				<div class="unit_elem content__about_border"></div>
+				<h3 class="content__author">S.M. McEachern</h3>
+				<div class="content__author-update-button"><a class="update-button" href="#">Get McEachern's updates by email</a></div>
+				<ul class="author-social-block">
+					<li class="author-social-block__elem"><a class="author-social-button" href="#">facebook</a><span class="author-social-block__elem_separator">&#9679;</span></li>
+					<li class="author-social-block__elem"><a class="author-social-button" href="#">twitter</a><span class="author-social-block__elem_separator">&#9679;</span></li>
+					<li class="author-social-block__elem"><a class="author-social-button" href="#">website</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<p class="content__copyright">Published with <img class="content__copyright_logo" src="images/pronoun_logo_with_arrow.png"></p>
+			</div>
+		</section>
+
+		<script>
+			$('#header_bg').backgroundBlur({
+			    imageURL : 'images/book-cover-705x1125.jpg',
+			    blurAmount : 40,
+			    imageClass : 'bg-blur'
+			});
+		</script>
+	</body>
+</html>

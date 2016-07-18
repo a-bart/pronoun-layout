@@ -1,0 +1,135 @@
+.content
+  width: 750px
+  margin: 0 auto
+  
+  @media $tablet
+    width: 80%
+    margin: 0 10%
+    padding: 0
+
+  &__title
+    font-family: 'Caslon224Std-BoldItalic'
+    text-align: left
+    font-size: 30px
+    color: $content_color_primary
+    
+    @media $mobile-max
+      font-size: 24px
+
+  &__text
+    font-family: 'AdobeCaslonPro-Regular'
+    text-align: justify
+    font-size: 24px
+    letter-spacing: 0.24px
+    line-height: 36px
+    color: #000
+    
+    @media $mobile-max
+      font-size: 20px
+      line-height: 28px
+
+  &__about
+    font-family: 'SuisseIntlCond-Medium'
+    text-align: center
+    text-transform: uppercase
+    font-size: 17px
+    color: $content_about_color
+    letter-spacing: 1.27px
+
+    &_border
+      margin-left: auto
+      margin-right: auto
+      line-height: 1px
+      width: 44px
+      border-top: 1px solid $content_about_color
+
+  &__author
+    font-family: 'Caslon224Std-BookItalic'
+    font-size: 30px
+    color: $content_color_primary
+    text-align: center
+    letter-spacing: 0.75px
+    line-height: 30px
+    
+    @media $mobile-max
+      font-size: 24px
+      line-height: 28px
+
+  &__author-update-button
+    text-align: center
+    margin: 15px 0
+
+  &__copyright
+    padding-top: 150px
+    text-align: center
+    font-family: 'Caslon224Std-Bold'
+    font-size: 20.85px
+    color: $content_copyright_color
+    letter-spacing: 0.83px
+    line-height: 22.82px
+    
+    @media $mobile-max
+      padding-top: 75px
+
+    &_logo
+      height: 22.82px
+      width: auto
+
+.social-block
+  display: -moz-flex
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  -moz-flex-wrap: wrap
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -moz-justify-content: center
+  -webkit-justify-content: center
+  -ms-justify-content: center
+  justify-content: center
+  text-align: center
+  list-style: none
+  padding: 0
+  margin: 0
+  width: 100%
+
+  &__elem
+    padding: 0 10px
+    display: inline-block
+    position: relative
+    text-align: center
+    width: auto
+    
+    @media $tablet
+      width: 100%
+      margin-bottom: 15px
+
+.author-social-block
+  display: -moz-flex
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  -moz-flex-wrap: wrap
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -moz-justify-content: center
+  -webkit-justify-content: center
+  -ms-justify-content: center
+  justify-content: center
+  text-align: center
+  list-style: none
+  padding: 0
+  margin: 0
+  width: 100%
+
+  &__elem
+    padding: 0
+    display: inline-block
+    position: relative
+    text-align: center
+    width: auto
+
+  .author-social-block__elem_separator
+    color: $content_author-social-block_separator

@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Caslon224Std-Book';
+  src: url('Caslon224Std-Book.eot?#iefix') format('embedded-opentype'),  url('Caslon224Std-Book.otf')  format('opentype'),
+	     url('Caslon224Std-Book.woff') format('woff'), url('Caslon224Std-Book.ttf')  format('truetype'), url('Caslon224Std-Book.svg#Caslon224Std-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

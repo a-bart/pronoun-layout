@@ -1,0 +1,178 @@
+.header
+  display: -moz-flex
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  -moz-flex-wrap: wrap
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  height: 100vh
+  min-height: 750px
+  background-color: $bg_header
+  
+  @media $desktop
+    display: block
+    -moz-flex-wrap: nowrap
+    -webkit-flex-wrap: nowrap
+    -ms-flex-wrap: nowrap
+    flex-wrap: nowrap
+    height: auto
+
+  &__elem
+    margin: 150px 0
+    min-height: 450px
+    
+    @media $desktop
+      margin: 80px 0 0 0
+      min-height: 350px
+      
+    @media $mobile-max
+      margin: 60px 0 0 0
+      min-height: 320px
+      
+    @media $mobile
+      margin: 40px 0 0 0
+      min-height: 280px
+
+  &__book-cover
+    width: 40%
+    height: auto
+    position:relative
+    display:inline-block
+    overflow:hidden
+    
+    @media $desktop
+      width: 100%        
+
+    &_img
+      position: absolute
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+      max-height: 100%
+
+  &__book-content
+    width: 60%
+    position: relative
+    color: $color_primary
+    
+    @media $desktop
+      width: 100%
+      margin: 50px 0 0 0
+      padding-bottom: 50px
+
+    &_title
+      text-align: center
+      
+      @media $desktop
+        width: 90%
+        margin: 50px 5%
+        // padding-bottom: 25px
+        
+      @media $mobile
+        padding-bottom: 0
+
+    &_buttons
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      text-align: center
+      
+      @media $desktop
+        position: relative
+
+.header-buttons-block
+  display: -moz-flex
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  -moz-flex-wrap: wrap
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -moz-justify-content: center
+  -webkit-justify-content: center
+  -ms-justify-content: center
+  justify-content: center
+  list-style: none
+  padding: 0
+  margin: 0
+  width: 100%
+
+  &__elem
+    padding: 1em 0.3em
+    display: inline-block
+    position: relative
+    text-align: center
+    width: 25%
+    
+    @media $tablet
+      width: 45%
+    
+    @media $mobile
+      width: 100%
+
+    &_text
+      position: absolute
+      top: 30%
+      left: 0
+      right: 0
+      width: 100%
+      font-family: 'SuisseIntlCond-Medium'
+      font-size: 22px
+      letter-spacing: 1.1px
+      opacity: 0.45
+      text-transform: uppercase
+      
+      @media $mobile
+        top: 10%
+        
+.header-title
+  font-family: 'Caslon224Std-BlackItalic'
+  font-size: 80px
+  line-height: 80px
+  letter-spacing: 2px
+  
+  @media $desktop
+    font-size: 66px
+    line-height: 66px
+    letter-spacing: 1.5px
+  
+  @media $tablet
+    font-size: 58px
+    line-height: 60px
+    letter-spacing: 1.4px
+    
+  @media $mobile-max
+    font-size: 38px
+    line-height: 35px
+    letter-spacing: 1.3px  
+
+.header-subtitle
+  font-family: 'Caslon224Std-MediumItalic'
+  font-size: 48px
+  line-height: 60px
+  letter-spacing: 1.2px
+  
+  @media $tablet
+    font-size: 40px
+    line-height: 50px
+    
+  @media $mobile-max
+    font-size: 32px
+    line-height: 30px 
+
+.header-author
+  font-family: 'Caslon224Std-BookItalic'
+  font-size: 30px
+  line-height: 30px
+  letter-spacing: 0.75px
+  
+  @media $tablet
+    font-size: 28px
+    
+  @media $mobile-max
+    font-size: 26px
