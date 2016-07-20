@@ -103,7 +103,7 @@
   width: 100%
 
   &__elem
-    padding: 1em 0.3em
+    padding: 0 0.3em
     display: inline-block
     position: relative
     text-align: center
@@ -128,7 +128,14 @@
       text-transform: uppercase
       
       @media $mobile
-        top: 10%
+        position: relative
+        top: 0
+        margin-bottom: 20px
+        
+  & > &__bottom-row
+    
+    @media $desktop-max
+      margin-bottom: 0 
         
 .header-title
   font-family: 'Caslon224Std-BlackItalic'
